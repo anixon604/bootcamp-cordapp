@@ -65,7 +65,7 @@
     import static net.corda.core.contracts.ContractsDSL.requireThat;
     
     public class TokenContract implements Contract {
-        public static String ID = "bootcamp.TokenContract";
+        public static String ID = "bootcamp.contracts.TokenContract";
     
         @Override
         public void verify(LedgerTransaction tx) throws IllegalArgumentException {
