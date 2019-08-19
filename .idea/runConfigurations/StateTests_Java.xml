@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StateTests Java" type="JUnit" factoryName="JUnit">
+    <module name="bootcamp-cordapp.workflows-java.test" />
+    <option name="PACKAGE_NAME" value="bootcamp.tests" />
+    <option name="MAIN_CLASS_NAME" value="bootcamp.tests.StateTests" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+    <option name="PARAMETERS" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
