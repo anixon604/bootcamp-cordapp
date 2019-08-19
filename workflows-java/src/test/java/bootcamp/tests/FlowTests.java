@@ -1,4 +1,4 @@
-package bootcamp;
+package bootcamp.tests;
 
 import bootcamp.contracts.TokenContract;
 import bootcamp.flows.TokenIssueFlowInitiator;

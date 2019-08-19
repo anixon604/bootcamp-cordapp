@@ -53,4 +53,4 @@ Here is a list of common issues encountered during the bootcamp, and how to fix 
 
     Task: `:cleanTest :test`
 
-    Arguments: `--tests "bootcamp.StateTests"` (or ContractTests or FlowTests)
+    Arguments: `--tests "bootcamp.tests.StateTests"` (or ContractTests or FlowTests)

@@ -26,7 +26,7 @@ cordapp` folder and click `Open`
     i. Add a new SDK if required by clicking `New…` and selecting the JDK’s folder
 
 7. Open the `Project` view by clicking `View > Tool Windows > Project`
-8. Run the test in `src/test/java/java_bootcamp/ProjectImportedOKTest.java`. It should pass!
+8. Run the test in `src/test/java/java_bootcamp/bootcamp.tests.ProjectImportedOKTest.java`. It should pass!
 
 ## Links to useful resources
 

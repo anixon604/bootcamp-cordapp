@@ -1,4 +1,4 @@
-package bootcamp;
+package bootcamp.tests;
 
 import bootcamp.states.TokenState;
 import net.corda.core.contracts.ContractState;

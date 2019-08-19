@@ -33,7 +33,7 @@ buildscript {
 }
 
 allprojects {
-    apply plugin: 'java'
+    apply plugin: 'net.corda.plugins.quasar-utils'
 
     repositories {
         mavenCentral()
@@ -53,12 +53,15 @@ allprojects {
         }
     }
 
-    tasks.withType(JavaCompile) {
-        options.compilerArgs << "-parameters" // Required for shell commands.
-    }
-
     jar {
         // CorDapps do not configure a Node's logging.
         exclude '**/log4j2*.xml'
+    }
+
+    task installQuasar(type: Copy) {
+        destinationDir rootProject.file("lib")
+        from(configurations.quasar) {
+            rename 'quasar-core(.*).jar', 'quasar.jar'
+        }
     }
 }
